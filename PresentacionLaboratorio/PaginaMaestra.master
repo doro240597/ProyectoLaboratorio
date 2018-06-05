@@ -11,11 +11,16 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+        <table>
+            <tr>
+                <td></td>
+            </tr>
+        <tr><td>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-    </div>
+            </td></tr>
+    </table>
     </form>
 </body>
 </html>
